@@ -10,6 +10,12 @@
 
   <meta content="" name="keywords">
 
+  
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  <script src="main.js"></script>
+
   <!-- Favicons -->
   <link href="assets/img/favicon.png" rel="icon">
   <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
@@ -24,9 +30,12 @@
   <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
   <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet">
   <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+  
 
   <!-- Template Main CSS File -->
+  
   <link href="assets/css/style.css" rel="stylesheet">
+  
 
   <!-- =======================================================
   * Template Name: FlexStart - v1.11.1
@@ -50,13 +59,14 @@
 
       <nav id="navbar" class="navbar">
         <ul>
-          <li><a class="nav-link scrollto active" href="#hero">Home</a></li>
-          <li><a class="nav-link scrollto" href="#about">About</a></li>
-          <li><a class="nav-link scrollto" href="#values">Our Values</a></li>
-          <li><a class="nav-link scrollto" href="#works">Works</a></li>
-          <li><a class="nav-link scrollto" href="#services">Services</a></li>
-          <li><a class="nav-link scrollto" href="#team">Drill Rigs</a></li>
-          <li><a class="nav-link scrollto" href="#clients">Clients</a></li>
+          <li><a key="0" class="nav-link scrollto active" href="#hero">Home</a></li>
+          <li><a key="1" class="nav-link scrollto" href="#about">About</a></li>
+          <li><a key="2" class="nav-link scrollto" href="#values">Our Values</a></li>
+          <li><a key="3" class="nav-link scrollto" href="#works">Works</a></li>
+          <li><a key="4" class="nav-link scrollto" href="#services">Services</a></li>
+          <li><a key="5" class="nav-link scrollto" href="#team">Drill Rigs</a></li>
+          <li><a key="6" class="nav-link scrollto" href="#clients">Clients</a></li>
+    
 
           <!-- 
           <li><a href="blog.html">Blog</a></li>
@@ -80,8 +90,16 @@
             </ul>
           </li>
           -->
-          <li><a class="nav-link scrollto" href="#contact">Contact</a></li>
-          <li><a class="getstarted scrollto" href="#about">Get Documents</a></li>
+          <li><a key="7" class="nav-link scrollto" href="#contact">Contact</a></li>
+                <!--Drop Down Language-->
+                <li class="dropdown"><a href="#"><span><i style="font-size: 15px" class="bi bi-translate"></i></span> <i class="bi bi-chevron-down"></i></a>
+                  <ul>
+                    <li><a class="dropdown-item" id="en" href="#">En</a></li>
+                    <li><a class="dropdown-item" id="tr" href="#">Tr</a></li>
+                      
+                  </ul>
+                </li>
+          <li><a key="8" class="getstarted scrollto" href="#about">Get Documents</a></li>
         </ul>
         <i class="bi bi-list mobile-nav-toggle"></i>
       </nav><!-- .navbar -->
@@ -95,12 +113,12 @@
     <div class="container">
       <div class="row">
         <div class="col-lg-6 d-flex flex-column justify-content-center">
-          <h1 data-aos="fade-up">We offer modern solutions for mining industry</h1>
-          <h2 data-aos="fade-up" data-aos-delay="400">We are team of hard-working engineers make difference</h2>
+          <h1 key="9" data-aos="fade-up">We offer modern solutions for mining industry</h1>
+          <h2 key="10" data-aos="fade-up" data-aos-delay="400">We are team of hard-working engineers make difference</h2>
           <div data-aos="fade-up" data-aos-delay="600">
             <div class="text-center text-lg-start">
               <a href="#about" class="btn-get-started scrollto d-inline-flex align-items-center justify-content-center align-self-center">
-                <span>Get Documents</span>
+                <span key="11">Get Documents</span>
                 <i class="bi bi-arrow-right"></i>
               </a>
             </div>
@@ -128,14 +146,14 @@
 
           <div class="col-lg-6 d-flex flex-column justify-content-center" data-aos="fade-up" data-aos-delay="200">
             <div class="content">
-              <h3>Who We Are</h3>
-              <h2>JEMAS Engineering; It was established in Ankara in 1984 to serve in the field of geology-geotechnical engineering.</h2>
-              <p>
-                Since this date, it has been active in geology-geotechnical studies in the project and application stages of many works such as highway, railway and other rail systems, dams, ponds, hydroelectric power plants, irrigation areas, airports, bridges, tunnels, engineering structures, mass housing areas, building projects. .
+              <h3 key="12">Who We Are</h3>
+              <h2 key="13">JEMAS Engineering; It was established in Ankara in 1984 to serve in the field of geology-geotechnical engineering.</h2>
+              <p key="14">
+                Since this date, it has been active in geology-geotechnical studies in the project and application stages of many works such as highway, railway and other rail systems, dams, ponds, hydroelectric power plants, irrigation areas, airports, bridges, tunnels, engineering structures, mass housing areas, building projects.
               </p>
               <div class="text-center text-lg-start">
                 <a href="#" class="btn-read-more d-inline-flex align-items-center justify-content-center align-self-center">
-                  <span>Read More</span>
+                  <span key="15">Read More</span>
                   <i class="bi bi-arrow-right"></i>
                 </a>
               </div>
@@ -157,8 +175,8 @@
       <div class="container" data-aos="fade-up">
 
         <header class="section-header">
-          <h2>Our Values</h2>
-          <p>Our Enviromental and Safety Vision</p>
+          <h2 key="16">Our Values</h2>
+          <p key="17">Our Enviromental and Safety Vision</p>
         </header>
 
         <div class="row">
@@ -166,24 +184,24 @@
           <div class="col-lg-4" data-aos="fade-up" data-aos-delay="200">
             <div class="box">
               <img src="assets/img/values-1.png" class="img-fluid" alt="">
-              <h3>Health and Safety</h3>
-              <p>We believe that correct and productive work can only be attained in a safe and healthy working environment</p>
+              <h3 key="18">Health and Safety</h3>
+              <p key="19">We believe that correct and productive work can only be attained in a safe and healthy working environment</p>
             </div>
           </div>
 
           <div class="col-lg-4 mt-4 mt-lg-0" data-aos="fade-up" data-aos-delay="400">
             <div class="box">
               <img src="assets/img/values-2.png" class="img-fluid" alt="">
-              <h3>Enviroment</h3>
-              <p>Preventing environmental pollution and destruction of the environment by following industry-specific scientific and technological developments of our sector about environmental protection</p>
+              <h3 key="20">Enviroment</h3>
+              <p key="21">Preventing environmental pollution and destruction of the environment by following industry-specific scientific and technological developments of our sector about environmental protection</p>
             </div>
           </div>
 
           <div class="col-lg-4 mt-4 mt-lg-0" data-aos="fade-up" data-aos-delay="600">
             <div class="box">
               <img src="assets/img/values-3.png" class="img-fluid" alt="">
-              <h3>Employee Engagement</h3>
-              <p>As Jemas Engineering, we always make sure about our family members in safe and happy enviroment</p>
+              <h3 key="22">Employee Engagement</h3>
+              <p key="23">As Jemas Engineering, we always make sure about our family members in safe and happy enviroment</p>
             </div>
           </div>
 
@@ -204,7 +222,7 @@
               <i class="bi bi-emoji-smile"></i>
               <div>
                 <span data-purecounter-start="0" data-purecounter-end="232" data-purecounter-duration="1" class="purecounter"></span>
-                <p>Happy Clients</p>
+                <p key="24">Happy Clients</p>
               </div>
             </div>
           </div>
@@ -214,7 +232,7 @@
               <i class="bi bi-journal-richtext" style="color: #ee6c20;"></i>
               <div>
                 <span data-purecounter-start="0" data-purecounter-end="521" data-purecounter-duration="1" class="purecounter"></span>
-                <p>Projects</p>
+                <p key="25">Projects</p>
               </div>
             </div>
           </div>
@@ -224,7 +242,7 @@
               <i class="bi bi-truck-front" style="color: #15be56;"></i>
               <div>
                 <span data-purecounter-start="0" data-purecounter-end="21" data-purecounter-duration="1" class="purecounter"></span>
-                <p>Machines</p>
+                <p key="26">Machines</p>
               </div>
             </div>
           </div>
@@ -234,7 +252,7 @@
               <i class="bi bi-people" style="color: #bb0852;"></i>
               <div>
                 <span data-purecounter-start="0" data-purecounter-end="24" data-purecounter-duration="1" class="purecounter"></span>
-                <p>Hard Workers</p>
+                <p key="27">Hard Workers</p>
               </div>
             </div>
           </div>
@@ -250,7 +268,7 @@
       <div class="container" data-aos="fade-up">
 
         <header class="section-header">
-          <h2>Works</h2> 
+          <h2 key="28">Works</h2> 
           <br>
           <video class="w-100" autoplay loop muted>
             <source src="assets/img/videoBig.mp4" type="video/mp4" />
@@ -402,8 +420,8 @@
       <div class="container" data-aos="fade-up">
 
         <header class="section-header">
-          <h2>Services</h2>
-          <p>Fields of Activity</p>
+          <h2 key="29">Services</h2>
+          <p key="30">Fields of Activity</p>
         </header>
 
         <div class="row gy-4">
@@ -411,12 +429,12 @@
           <div class="col-md-6" data-aos="fade-up" data-aos-delay="200">
             <div class="service-box blue">
               <i class="ri-vip-diamond-fill icon"></i>
-              <h3>Mine Drilling</h3>
-              <p>Expanding its fields of activity in 2008, JEMAS; In addition to existing geological-geotechnicals, measuring devices 
+              <h3 key="31">Mine Drilling</h3>
+              <p key="32">Expanding its fields of activity in 2008, JEMAS; In addition to existing geological-geotechnicals, measuring devices 
                 have formed. since 2008; JEMAS, public and private sector business, to carry out all works successfully; It is reliable, 
                 research-development and developed, serving the need with expert relationship. It is proudly progressing on this road as 
                 it grows with its machinery park that expands every year.</p>
-              <a href="#" class="read-more"><span>Read More</span> <i class="bi bi-arrow-right"></i></a>
+              <a key="33" href="#" class="read-more"><span key="34">Read More</span> <i class="bi bi-arrow-right"></i></a>
             </div>
           </div>
 <!--
@@ -436,13 +454,13 @@
           <div class="col-md-6" data-aos="fade-up" data-aos-delay="400">
             <div class="service-box green">
               <i class="ri-map-2-fill icon"></i>
-              <h3>Geotechnical Services</h3>
-              <p> It is one of the first companies
+              <h3 key="35">Geotechnical Services</h3>
+              <p key="36"> It is one of the first companies
                   established in Turkey within the scope of geotechnical studies, which is felt to be lacking. Since this date, it has been active in geology-geotechnical
                   studies in the project and application stages of many works such as highway, railway and other rail systems, dams, ponds, hydroelectric power plants,
                   irrigation areas, airports, bridges, tunnels, engineering structures, mass housing areas, building projects. .
                   </p>
-              <a href="#" class="read-more"><span>Read More</span> <i class="bi bi-arrow-right"></i></a>
+              <a href="#" class="read-more"><span key="37">Read More</span> <i class="bi bi-arrow-right"></i></a>
             </div>
           </div>
        
@@ -742,8 +760,8 @@
       <div class="container" data-aos="fade-up">
 
         <header class="section-header">
-          <h2>Team</h2>
-          <p>Our Drill Rigs</p>
+          <h2 key="38">Machines</h2>
+          <p key="39">Our Drill Rigs</p>
         </header>
 
         <div class="row gy-4">
@@ -761,8 +779,8 @@
               </div>
               <div class="member-info">
                 <h4>TETRA TD 2500</h4>
-                <h3>6 Drill Rigs</h3>
-                <span>CAPACITY</span>
+                <h3 key="40">6 Drill Rigs</h3>
+                <span key="41">CAPACITY</span>
                 <p>PBQ:3000
 
                   NQ:2500
@@ -787,8 +805,8 @@
               </div>
               <div class="member-info">
                 <h4>TETRA TD 1500</h4>
-                <h3>2 Drill Rigs</h3>
-                <span>CAPACITY</span>
+                <h3 key="42">2 Drill Rigs</h3>
+                <span key="43">CAPACITY</span>
                 <p>BQ:2000
 
                   NQ:1500
@@ -815,8 +833,8 @@
               </div>
               <div class="member-info">
                 <h4>JMAC-150</h4>
-                <h3>8 Drill Rigs</h3>
-                <span>CAPACITY</span>
+                <h3 key="44">8 Drill Rigs</h3>
+                <span key="45">CAPACITY</span>
                 <p>PBQ:3000
 
                   NQ:2500
@@ -841,8 +859,8 @@
               </div>
               <div class="member-info">
                 <h4>DELTA 150</h4>
-                <h3>4  Drill Rigs</h3>
-                <span>Core Drill Rig</span>
+                <h3 key="46">4  Drill Rigs</h3>
+                <span key="47">CAPACITY</span>
                 <p>PBQ:2000
 
                   NQ:1500
@@ -868,8 +886,8 @@
       <div class="container" data-aos="fade-up">
 
         <header class="section-header">
-          <h2>Our Clients</h2>
-          <p>Mining</p>
+          <h2 key="48">Our Clients</h2>
+          <p key="49">Mining</p>
         </header>
         <br>
         <div class="clients-slider swiper">
@@ -903,8 +921,8 @@
 
         <br><br>
         <header class="section-header">
-          <h2>Our Clients</h2>
-          <p>Constructions</p>
+          <h2 key="50">Our Clients</h2>
+          <p key="51">Constructions</p>
         </header>
         <br>
         <div class="clients-slider swiper">
@@ -981,8 +999,8 @@
       <div class="container" data-aos="fade-up">
 
         <header class="section-header">
-          <h2>Contact</h2>
-          <p>Contact Us</p>
+          <h2 key="52">Contact</h2>
+          <p key="53">Contact Us</p>
         </header>
 
         <div class="row gy-4">
@@ -993,29 +1011,29 @@
               <div class="col-md-6">
                 <div class="info-box">
                   <i class="bi bi-geo-alt"></i>
-                  <h3>Address</h3>
+                  <h3 key="54">Address</h3>
                   <p>Fatih Sultan, Arp Kule, 2700. Cd. No:3 D:No:11 Kat 5<br>Etimesgut/Ankara , 06790</p>
                 </div>
               </div>
               <div class="col-md-6">
                 <div class="info-box">
                   <i class="bi bi-telephone"></i>
-                  <h3>Call Us</h3>
+                  <h3 key="55">Call Us</h3>
                   <p>+90 (312) 475 58 18<br>+90 (312) 475 58 14</p>
                 </div>
               </div>
               <div class="col-md-6">
                 <div class="info-box">
                   <i class="bi bi-envelope"></i>
-                  <h3>Email Us</h3>
+                  <h3 key="56">Email Us</h3>
                   <p>info@jemas.com.tr<br></p>
                 </div>
               </div>
               <div class="col-md-6">
                 <div class="info-box">
                   <i class="bi bi-clock"></i>
-                  <h3>Open Hours</h3>
-                  <p>Monday - Friday<br>9:00AM - 05:00PM</p>
+                  <h3 key="57">Open Hours</h3>
+                  <p key="58">Monday - Friday<br key="58">9:00AM - 05:00PM</p>
                 </div>
               </div>
             </div>
@@ -1043,11 +1061,11 @@
                 </div>
 
                 <div class="col-md-12 text-center">
-                  <div class="loading">Loading</div>
+                  <div key="59" class="loading">Loading</div>
                   <div class="error-message"></div>
-                  <div class="sent-message">Your message has been sent. Thank you!</div>
+                  <div key="60" class="sent-message">Your message has been sent. Thank you!</div>
 
-                  <button type="submit">Send Message</button>
+                  <button key="61" type="submit">Send Message</button>
                 </div>
 
               </div>
@@ -1079,9 +1097,11 @@
   <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
   <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
   <script src="assets/vendor/php-email-form/validate.js"></script>
+  
 
   <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>
+  
 
 </body>
 

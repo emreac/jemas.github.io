@@ -4,6 +4,172 @@
 * Author: BootstrapMade.com
 * License: https://bootstrapmade.com/license/
 */
+
+$(document).ready(function() {
+
+  var arrLang={
+      
+      'tr':{
+
+          '0':'',
+          '1':'Hakkımızda',
+          '2':'Değerlerimiz',
+          '3':'Çalışmalar',
+          '4':'Hizmetler',
+          '5':'Sondaj Makinaları',
+          '6':'Müşteriler',
+          '7':'İlestişim',
+          '8':'Broşür İndir',
+          '9':'Madencilik sektörü için modern çözümler sunuyoruz',
+          '10':'Fark yaratan çalışkan bir ekibiz',
+          '11':'Broşür İndir',
+          '12':'BİZ KİMİZ',
+          '13':'JEMAS Mühendislik; 1984 yılında jeoloji-jeoteknik mühendisliği alanında hizmet vermek üzere Ankara da kurulmuştur.',
+          '14':'Bu tarihten itibaren karayolu, demiryolu ve diğer raylı sistemler, barajlar, göletler, hidroelektrik santraller, sulama alanları, havaalanları, köprüler, tüneller, mühendislik gibi birçok işin proje ve uygulama aşamalarında jeoloji-jeoteknik etütlerde faaliyet göstermektedir. yapılar, toplu konut alanları, yapı projeleri.',
+          '15':'Daha Fazla',
+          '16':'DEĞERLERİMİZ',
+          '17':'Çevre ve Güvenlik Vizyonumuz',
+          '18':'Sağlık ve Güvenlik',
+          '19':'Doğru ve verimli çalışmanın ancak güvenli ve sağlıklı bir çalışma ortamında sağlanabileceğine inanırız.',
+          '20':'Çevre',
+          '21':'Çevre koruma konusunda sektörümüze özgü bilimsel ve teknolojik gelişmeleri takip ederek çevre kirliliğini ve çevre tahribatını önlemek',
+          '22':'Çalışan Bağlılığı',
+          '23':'Jemas Mühendislik olarak aile fertlerimizin her zaman güvenli ve mutlu bir ortamda olmasını sağlarız',
+          '24':'Mutlu Müşteriler',
+          '25':'Projeler',
+          '26':'Makinalar',
+          '27':'Ekibimiz',
+          '28':'Çalışmalar',
+          '29':'HİZMETLERİMİZ',
+          '30':'Çalışma Alanlarımız',
+          '31':'Maden Sondajı',
+          '32':'2008 yılında faaliyet alanlarını genişleten JEMAS; Mevcut jeolojik-jeotekniklere ek olarak, ölçüm cihazları oluşturduk. 2008 den beri; JEMAS, kamu ve özel sektör işletmelerinin, tüm çalışmalarını başarıyla yürütmek için; güvenilirdir, araştırma-geliştirme ve geliştirme, ihtiyaca uzman ilişkisi ile hizmet vermektedir. olarak bu yolda gururla ilerlemektedir. Her yıl genişleyen makine parkı ile büyümektedir.',
+          '34':'Daha Fazla',
+          '35':'Jeoteknik Etüt',
+          '36':'Uzmanlık olarak jeoteknik etütler kapsamında Türkiye de kurulan ilk firmalardan biridir. Bu tarihten itibaren karayolu, demiryolu ve diğer raylı sistemler, barajlar, göletler, hidroelektrik santraller, sulama alanları, havaalanları, köprüler, tüneller, mühendislik gibi birçok işin proje ve uygulama aşamalarında jeoloji-jeoteknik etütlerde faaliyet göstermektedir. yapılar, toplu konut alanları, yapı projeleri',
+          '37':'Daha Fazla',
+          '38':'MAKİNALAR',
+          '39':'Sondaj Makinaları',
+          '40':'6 Sondaj Makinası',
+          '41':'KAPASİTE',
+          '42':'2 Sondaj Makinası',
+          '43':'KAPASİTE',
+          '44':'8 Sondaj Makinası',
+          '45':'KAPASİTE',
+          '46':'4 Sondaj Makinası',
+          '47':'KAPASİTE',
+          '48':'MÜŞTERİLER',
+          '49':'MADEN',
+          '50':'MÜŞTERİLER',
+          '51':'İnşaat',
+          '52':'İLETİŞİM',
+          '53':'BİZE ULAŞIN',
+          '54':'Adres',
+          '55':'Bizi Arayın',
+          '56':'Email',
+          '57':'Çalışma Saatleri',
+          '58':'9:00 - 17:00',
+          '59':'Yükleniyor',
+          '60':'Mesajınız Başarıyla Gönderildi.',
+          '61':'Gönder',
+     
+
+
+      },
+
+
+      'en':{
+          '0':'Home',
+          '1':'About',
+          '2':'OurValues',
+          '3':'Works',
+          '4':'Services',
+          '5':'Drill Rigs',
+          '6':'Clients',
+          '7':'Contact',
+          '8':'Get Documents',
+          '9':'We offer modern solutions for mining industry',
+          '10':'We are team of hard-working engineers make difference ',
+          '11':'Get Documents',
+          '12':'Who We Are',
+          '13':'JEMAS Engineering; It was established in Ankara in 1984 to serve in the field of geology-geotechnical engineering.',
+          '14':'Since this date, it has been active in geology-geotechnical studies in the project and application stages of many works such as highway, railway and other rail systems, dams, ponds, hydroelectric power plants, irrigation areas, airports, bridges, tunnels, engineering structures, mass housing areas, building projects.',
+          '15':'Read More',
+          '16':'Our Values',
+          '17':'Our Enviromental and Safety Vision',
+          '18':'Health and Safety',
+          '19':'We believe that correct and productive work can only be attained in a safe and healthy working environment',
+          '20':'Enviroment',
+          '21':'Preventing environmental pollution and destruction of the environment by following industry-specific scientific and technological developments of our sector about environmental protection',
+          '22':'Employee Engagement',
+          '23':'As Jemas Engineering, we always make sure about our family members in safe and happy enviroment',
+          '24':'Happy Clients',
+          '25':'Projects',
+          '26':'Machines',
+          '27':'Hard Workers',
+          '28':'Works',
+          '30':'Services',
+          '30':'Fields of Activity',
+          '31':'Mine Drilling',
+          '32':'Expanding its fields of activity in 2008, JEMAS; In addition to existing geological-geotechnicals, measuring devices have formed. since 2008; JEMAS, public and private sector business, to carry out all works successfully; It is reliable, research-development and developed, serving the need with expert relationship. It is proudly progressing on this road as it grows with its machinery park that expands every year',
+          '34':'Read More',
+          '35':'Geotechnical Services',
+          '36':'It is one of the first companies established in Turkey within the scope of geotechnical studies, which is felt to be lacking. Since this date, it has been active in geology-geotechnical studies in the project and application stages of many works such as highway, railway and other rail systems, dams, ponds, hydroelectric power plants, irrigation areas, airports, bridges, tunnels, engineering structures, mass housing areas, building projects',
+          '37':'Read More',
+          '38':'Machines',
+          '39':'Our Drill Rigs',
+          '40':'6 Drill Rigs',
+          '41':'CAPACITY',
+          '42':'2 Drill Rigs',
+          '43':'CAPACITY', 
+          '44':'8 Drill Rigs',
+          '45':'CAPACITY',
+          '46':'4 Drill Rigs',
+          '47':'CAPACITY',
+          '48':'OUR CLIENTS',
+          '49':'MINING',
+          '50':'OUR CLIENTS',
+          '51':'Constructions',
+          '52':'Contact',
+          '53':'Contact Us',
+          '54':'Address',
+          '55':'Call Us',
+          '56':'Email',
+          '57':'Open Hours',
+          '58':'9:00AM - 05:00PM',
+          '59':'Loading',
+          '60':'Your message has been sent. Thank you!',
+          '61':'Send Message',
+      
+      },
+      
+      
+  };
+
+
+  
+$('.dropdown-item').click(function() {
+  localStorage.setItem('dil', JSON.stringify($(this).attr('id'))); 
+  location.reload();
+});
+
+  var lang =JSON.parse(localStorage.getItem('dil'));
+
+  if(lang=="en"){
+      $("#drop_yazı").html("English");
+  }
+  else{
+      $("#drop_yazı").html("Türkçe");
+
+  }
+
+  $('a,h5,p,h1,h2,span,li,button,h3,label').each(function(index,element) {
+    $(this).text(arrLang[lang][$(this).attr('key')]);
+  
+});
+
+});
+
 (function() {
   "use strict";
 
